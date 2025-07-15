@@ -23,13 +23,13 @@ import Animated, {
   withTiming,
 } from 'react-native-reanimated';
 
-import Card from './components/homeComponents/Cards';
-import Header from './components/homeComponents/Header';
-import QuickActions from './components/homeComponents/QuickActions';
-import RecentActivity from './components/homeComponents/RecentActivity';
-import UpcomingDeadlines from './components/homeComponents/UpcomingDeadlines';
-import WeatherCard from './components/homeComponents/WeatherCard';
-import useWeather from './hooks/WeatherHook'; // Updated to use GPS-based version
+import Card from '../components/homeComponents/Cards';
+import Header from '../components/homeComponents/Header';
+import QuickActions from '../components/homeComponents/QuickActions';
+import RecentActivity from '../components/homeComponents/RecentActivity';
+import UpcomingDeadlines from '../components/homeComponents/UpcomingDeadlines';
+import WeatherCard from '../components/homeComponents/WeatherCard';
+import useWeather from '../hooks/WeatherHook'; // Updated to use GPS-based version
 
 const { width } = Dimensions.get('window');
 

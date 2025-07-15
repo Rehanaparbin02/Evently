@@ -12,8 +12,8 @@ import {
 } from 'react-native';
 
 // Screens
-import HomeScreen from '../HomeScreen';
 import EventsScreen from '../screens/EventsScreen';
+import HomeScreen from '../screens/HomeScreen';
 import TasksScreen from '../screens/TasksScreen';
 import TeamScreen from '../screens/TeamScreen';
 
